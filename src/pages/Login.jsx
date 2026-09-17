@@ -23,7 +23,7 @@ function Login({ darkMode }) {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/login",
+        "https://purnendu-kauri.onrender.com/api/login",
         {
           method: "POST",
           headers: {

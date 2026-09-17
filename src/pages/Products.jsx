@@ -49,7 +49,7 @@ function Products({ darkMode }) {
   // =========================
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/products")
+    fetch("https://purnendu-kauri.onrender.com/api/products")
 
       .then((response) => {
         if (!response.ok) {
